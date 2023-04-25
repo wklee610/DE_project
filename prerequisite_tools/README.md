@@ -1,4 +1,7 @@
 # Prerequisite tools for Project
 
-1. MySQL
-2. Airflow
+- Docker
+- Kubernetes
+- Hadoop
+- Spark
+- Airflow
