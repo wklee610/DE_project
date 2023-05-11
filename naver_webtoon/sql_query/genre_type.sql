@@ -1,0 +1,11 @@
+USE webtoon;
+
+DROP TABLE if EXISTS genre_type;
+
+CREATE TABLE genre_type(
+	`index` INT NOT NULL PRIMARY KEY,
+	genre VARCHAR(255) NOT NULL,
+	genreID VARCHAR(255) NOT NULL,
+	genreURL VARCHAR(255) NOT NULL
+);
+
