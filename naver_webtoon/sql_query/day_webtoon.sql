@@ -1,0 +1,141 @@
+USE webtoon;
+
+DROP TABLE if EXISTS mon_webtoon;
+
+CREATE TABLE mon_webtoon(
+    `day` VARCHAR(10) NOT NULL,
+	titleID INT NOT NULL,
+	titleName VARCHAR(255) NOT NULL,
+	authorID INT NOT NULL,
+	authorName VARCHAR(255) NOT NULL,
+	`rank` INT NOT NULL PRIMARY KEY,
+	rating FLOAT NOT NULL,
+	url VARCHAR(255) NOT NULL,
+    platform VARCHAR(255) NOT NULL
+);
+
+DROP TABLE if EXISTS tue_webtoon;
+
+CREATE TABLE tue_webtoon(
+    `day` VARCHAR(10) NOT NULL,
+	titleID INT NOT NULL,
+	titleName VARCHAR(255) NOT NULL,
+	authorID INT NOT NULL,
+	authorName VARCHAR(255) NOT NULL,
+	`rank` INT NOT NULL PRIMARY KEY,
+	rating FLOAT NOT NULL,
+	url VARCHAR(255) NOT NULL,
+    platform VARCHAR(255) NOT NULL
+);
+
+DROP TABLE if EXISTS wed_webtoon;
+
+CREATE TABLE wed_webtoon(
+    `day` VARCHAR(10) NOT NULL,
+	titleID INT NOT NULL,
+	titleName VARCHAR(255) NOT NULL,
+	authorID INT NOT NULL,
+	authorName VARCHAR(255) NOT NULL,
+	`rank` INT NOT NULL PRIMARY KEY,
+	rating FLOAT NOT NULL,
+	url VARCHAR(255) NOT NULL,
+    platform VARCHAR(255) NOT NULL
+);
+
+DROP TABLE if EXISTS thu_webtoon;
+
+CREATE TABLE thu_webtoon(
+    `day` VARCHAR(10) NOT NULL,
+	titleID INT NOT NULL,
+	titleName VARCHAR(255) NOT NULL,
+	authorID INT NOT NULL,
+	authorName VARCHAR(255) NOT NULL,
+	`rank` INT NOT NULL PRIMARY KEY,
+	rating FLOAT NOT NULL,
+	url VARCHAR(255) NOT NULL,
+    platform VARCHAR(255) NOT NULL
+);
+
+DROP TABLE if EXISTS fri_webtoon;
+
+CREATE TABLE fri_webtoon(
+    `day` VARCHAR(10) NOT NULL,
+	titleID INT NOT NULL,
+	titleName VARCHAR(255) NOT NULL,
+	authorID INT NOT NULL,
+	authorName VARCHAR(255) NOT NULL,
+	`rank` INT NOT NULL PRIMARY KEY,
+	rating FLOAT NOT NULL,
+	url VARCHAR(255) NOT NULL,
+    platform VARCHAR(255) NOT NULL
+);
+
+DROP TABLE if EXISTS sat_webtoon;
+
+CREATE TABLE sat_webtoon(
+    `day` VARCHAR(10) NOT NULL,
+	titleID INT NOT NULL,
+	titleName VARCHAR(255) NOT NULL,
+	authorID INT NOT NULL,
+	authorName VARCHAR(255) NOT NULL,
+	`rank` INT NOT NULL PRIMARY KEY,
+	rating FLOAT NOT NULL,
+	url VARCHAR(255) NOT NULL,
+    platform VARCHAR(255) NOT NULL
+);
+
+DROP TABLE if EXISTS sun_webtoon;
+
+CREATE TABLE sun_webtoon(
+    `day` VARCHAR(10) NOT NULL,
+	titleID INT NOT NULL,
+	titleName VARCHAR(255) NOT NULL,
+	authorID INT NOT NULL,
+	authorName VARCHAR(255) NOT NULL,
+	`rank` INT NOT NULL PRIMARY KEY,
+	rating FLOAT NOT NULL,
+	url VARCHAR(255) NOT NULL,
+    platform VARCHAR(255) NOT NULL
+);
+
+DROP TABLE if EXISTS new_webtoon;
+
+CREATE TABLE new_webtoon(
+	`day` VARCHAR(10) NOT NULL,
+    titleID INT NOT NULL,
+	titleName VARCHAR(255) NOT NULL,
+	authorID INT NOT NULL,
+	authorName VARCHAR(255) NOT NULL,
+	`rank` INT NOT NULL PRIMARY KEY,
+	rating FLOAT NOT NULL,
+	url VARCHAR(255) NOT NULL,
+    platform VARCHAR(255) NOT NULL
+);
+
+DROP TABLE if EXISTS daily_webtoon;
+
+CREATE TABLE daily_webtoon(
+	`day` VARCHAR(10) NOT NULL,
+    titleID INT NOT NULL,
+	titleName VARCHAR(255) NOT NULL,
+	authorID INT NOT NULL,
+	authorName VARCHAR(255) NOT NULL,
+	`rank` INT NOT NULL PRIMARY KEY,
+	rating FLOAT NOT NULL,
+	url VARCHAR(255) NOT NULL,
+    platform VARCHAR(255) NOT NULL
+);
+
+DROP TABLE if EXISTS finish_webtoon;
+
+CREATE TABLE finish_webtoon(
+    `day` VARCHAR(10) NOT NULL,
+	titleID INT NOT NULL,
+	titleName VARCHAR(255) NOT NULL,
+	authorID INT NOT NULL,
+	authorName VARCHAR(255) NOT NULL,
+	`rank` INT NOT NULL PRIMARY KEY,
+	rating FLOAT NOT NULL,
+	url VARCHAR(255) NOT NULL,
+    platform VARCHAR(255) NOT NULL
+);
